@@ -108,7 +108,7 @@ a:focus {
 }
 
 #yoobaki{
-    margin-top: 6em;
+    margin-top: 5.5em;
     .top{
         display: block;
         background: url(../images/background_candidate_2.jpg)no-repeat center;
@@ -125,18 +125,40 @@ a:focus {
         font-weight: 700;
 
     }
-    h1{
-        font-size: 4em;
-        line-height: 1.1;
-        padding-top: 3em;
 
+    @media screen
+      and (min-device-width: 1200px)
+      and (max-device-width: 1600px)
+      and (-webkit-min-device-pixel-ratio: 1) {
+        h1 {
+            font-size: 4em;
+            line-height: 1.1;
+            margin-top: 80px;
+        }
+        h2 {
+            font-size: 2em;
+            line-height: 1.1;
+            margin-top: 30px;
+        }
     }
-    h2{
-        font-size: 2em;
-        line-height: 1.1;
-        margin-top: 30px;
-        font-weight: 500;
+
+
+    @media screen and (max-device-width: 600) {
+        h1,h2 {
+          max-width: 420px;
+        }
+        h1 {
+            font-size: 3em;
+            line-height: 1.1;
+            margin-top: 4em;
+        }
+        h2 {
+            font-size: 1.5em;
+            line-height: 1.1;
+            margin-top: 30px;
+        }
     }
+
 
     a{
         display: inline-block;
