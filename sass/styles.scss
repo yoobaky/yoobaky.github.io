@@ -10,16 +10,24 @@
 @import "compass/css3";
 
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700,400italic,500italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
-body{
+html {
+    font-size: 1em;
+    line-height: 1.4;
     font-family: 'Ubuntu', sans-serif;
+}
+
+body {
     position: relative;
+
 }
 
 html,body{
     height: 100%;
 }
+
 
 a:focus {
     outline: none;
@@ -76,7 +84,7 @@ a:focus {
         }
         @media (max-width: 1200px) {
             max-width: 250px;
-            padding-top:5px; 
+            padding-top:5px;
         }
     }
 }
@@ -95,32 +103,41 @@ a:focus {
 
 .navbar-nav>li>a:focus{
     @media (min-width: $screen-md-min) {
-        color: #fff !important; 
+        color: #fff !important;
     }
 }
 
 #yoobaki{
-    margin-top: 79px;
+    margin-top: 6em;
     .top{
         display: block;
-        background: url(../images/background.jpg)no-repeat center;
+        background: url(../images/background_candidate_2.jpg)no-repeat center;
         background-size: cover;
         text-align: center;
         position: relative;
     }
-    h1{
-        position: relative;
-        max-width: 597px;
+    h1,h2{
+        font-family: 'Open Sans', 'Ubuntu';
         color: #ffffff;
+        position : relative;
         text-align: center;
-        margin: 30% auto 0 auto;
-        font-weight: normal;
-        font-style: italic;
-        text-transform: uppercase;
-        font-size: 24px;
-        line-height: 34px;
-        text-shadow: 2px 2px #000;
+        text-shadow: black 0.1em 0.1em 0.2em;
+        font-weight: 700;
+
     }
+    h1{
+        font-size: 4em;
+        line-height: 1.1;
+        padding-top: 3em;
+
+    }
+    h2{
+        font-size: 2em;
+        line-height: 1.1;
+        margin-top: 30px;
+        font-weight: 500;
+    }
+
     a{
         display: inline-block;
         width: 56px;
@@ -142,7 +159,7 @@ a:focus {
         color: #fff;
         padding: 0;
         text-align: center;
-        margin-bottom: 
+        margin-bottom:
             li{
                 height: 46px;
                 }
