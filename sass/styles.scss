@@ -128,12 +128,11 @@ a:focus {
 
     @media screen
       and (min-device-width: 1200px)
-      and (max-device-width: 1600px)
       and (-webkit-min-device-pixel-ratio: 1) {
         h1 {
             font-size: 4em;
             line-height: 1.1;
-            margin-top: 80px;
+            margin-top: 3em;
         }
         h2 {
             font-size: 2em;
