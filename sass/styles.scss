@@ -13,14 +13,21 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
-body{
+html {
+    font-size: 1em;
+    line-height: 1.4;
     font-family: 'Ubuntu', sans-serif;
+}
+
+body {
     position: relative;
+
 }
 
 html,body{
     height: 100%;
 }
+
 
 a:focus {
     outline: none;
@@ -101,7 +108,7 @@ a:focus {
 }
 
 #yoobaki{
-    margin-top: 79px;
+    margin-top: 6em;
     .top{
         display: block;
         background: url(../images/background_candidate_2.jpg)no-repeat center;
@@ -109,28 +116,26 @@ a:focus {
         text-align: center;
         position: relative;
     }
-    h1{
-        font-family: 'Open Sans', ubuntu;
-        position: relative;
+    h1,h2{
+        font-family: 'Open Sans', 'Ubuntu';
         color: #ffffff;
+        position : relative;
         text-align: center;
-        font-weight: 700;
-        font-size: 44px;
-        line-height: 34px;
         text-shadow: black 0.1em 0.1em 0.2em;
-        margin-top: 80px;
+        font-weight: 700;
+
+    }
+    h1{
+        font-size: 4em;
+        line-height: 1.1;
+        padding-top: 3em;
 
     }
     h2{
-        font-family: 'Open Sans', ubuntu;
-        position: relative;
-        color: #ffffff;
-        text-align: center;
-        font-size: 32px;
-        line-height: 34px;
+        font-size: 2em;
+        line-height: 1.1;
         margin-top: 30px;
-        font-weight: normal;
-        text-shadow: black 0.1em 0.1em 0.2em;
+        font-weight: 500;
     }
 
     a{
