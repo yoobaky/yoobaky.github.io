@@ -131,6 +131,11 @@ $display3-size: 3.4rem !default;
   min-height: 26rem;
 }
 
+#realisations .card {
+  min-height: 26rem;
+}
+
+
 .section-hero-contact {
   padding-bottom: 3rem;
   background: #663fb5 url(../img/hero-contact.jpeg) no-repeat center bottom;
@@ -169,4 +174,13 @@ $display3-size: 3.4rem !default;
 
 .card-shadow {
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+h1 {
+    text-shadow: black 0.1em 0.1em 1em;
+}
+
+li.nav-item {
+    text-shadow: black 0.1em 0.1em 1em;
 }
