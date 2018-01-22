@@ -81,6 +81,10 @@ $display3-size: 3.4rem !default;
   #brand-logo-img {
   width: 120px;
   }
+
+  header {
+    height: 60vh;
+  }
 }
 
 .subtitle {
@@ -181,6 +185,6 @@ h1 {
     text-shadow: black 0.1em 0.1em 1em;
 }
 
-li.nav-item {
+#collapsingNavbar li.nav-item {
     text-shadow: black 0.1em 0.1em 1em;
 }
