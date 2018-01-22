@@ -1,0 +1,190 @@
+
+
+$white:  #fff !default;
+$gray-100: #f4f5f7 !default;
+$gray-200: rgba(255,255,255,.5) !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #818a91 !default;
+$gray-700: #424753 !default;
+$gray-800: rgba(0,0,0,.5) !default;
+$gray-900: #312f38 !default;
+$black:  #000 !default;
+
+$grays: (
+  100: $gray-100,
+  200: $gray-200,
+  300: $gray-300,
+  400: $gray-400,
+  500: $gray-500,
+  600: $gray-600,
+  700: $gray-700,
+  800: $gray-800,
+  900: $gray-900
+) !default;$blue:    #007bff !default;
+
+$indigo:  #6c59b4 !default;
+$purple:  #6c59b4 !default;
+$pink:    #e83e8c !default;
+$red:     #dc3545 !default;
+$orange:  #fd7e14 !default;
+$yellow:  #ffc107 !default;
+$green:   #28a745 !default;
+$teal:    #20c997 !default;
+$cyan:    #2b8be3 !default;
+$blue-green: #20AC9F !default;
+
+$brand-primary: $blue-green;
+
+$colors: (
+  blue: $blue,
+  indigo: $indigo,
+  purple: $purple,
+  pink: $pink,
+  red: $red,
+  orange: $orange,
+  yellow: $yellow,
+  green: $green,
+  teal: $teal,
+  cyan: $cyan,
+  white: $white,
+  gray: $gray-600,
+  gray-dark: $gray-900,
+  blue-green: $blue-green
+) !default;
+
+$theme-colors: (
+  primary: $blue-green,
+  secondary: $gray-600,
+  success: $green,
+  info: $cyan,
+  warning: $yellow,
+  danger: $red,
+  light: $gray-100,
+  dark: $gray-900
+) !default;
+
+$display3-size: 3.4rem !default;
+
+#brand-logo-img {
+  width: 200px;
+}
+
+@media screen and (min-width: 1000px) {
+  #contact-button {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  #brand-logo-img {
+  width: 120px;
+  }
+
+  header {
+    height: 60vh;
+  }
+}
+
+.subtitle {
+  letter-spacing: 0.1rem;
+}
+
+.sup {
+  position: relative;
+  bottom: 1ex;
+  font-size: 80%;
+}
+
+.brand-color {
+  color: $blue-green;
+}
+
+#card-blue {
+  background-color: #41BFEF;
+  color: white;
+}
+
+#icon-blue {
+  background-color: #71CAEC;
+}
+
+
+#card-green {
+  background-color: #93BF20;
+  color: white;
+}
+
+#icon-green {
+  background-color: #A3C940;
+}
+
+
+
+#card-orange {
+  background-color: #F18509;
+  color: white;
+}
+
+#icon-orange {
+  background-color: #F29021;
+}
+
+#engagements .card {
+  min-height: 26rem;
+}
+
+#realisations .card {
+  min-height: 26rem;
+}
+
+
+.section-hero-contact {
+  padding-bottom: 3rem;
+  background: #663fb5 url(../img/hero-contact.jpeg) no-repeat center bottom;
+  background-size: cover;
+  min-height: 20rem;
+  color: white;
+}
+
+.semi-transparent-button {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 8px;
+  width: 80%;
+  // max-width: 200px;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.5);
+  // border-radius: 0.25rem;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  white-space: nowrap;
+  border: 2px solid white;
+  transition: all 0.3s ease-out;
+}
+
+.semi-transparent-button:hover, .semi-transparent-button:focus, .semi-transparent-button:active {
+  background: #fff;
+  background: rgb(255, 255, 255);
+  color: #000;
+  transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+
+.card-shadow {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+h1 {
+    text-shadow: black 0.1em 0.1em 1em;
+}
+
+#collapsingNavbar li.nav-item {
+    text-shadow: black 0.1em 0.1em 1em;
+}

@@ -1,304 +1,414 @@
-<!DOCTYPE HTML>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Yoobaky Ventures: Entrepreneur – Investisseur</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="Yoobaky Ventures est un collectif d’entrepreneurs qui porte les innovations, accélère le transfert de la science et des inventions vers la société.">
-        <link rel="stylesheet" href="stylesheets/styles.css">
-        <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon" />
-        <link rel="apple-touch-icon" href="images/favicon/apple-touch-icon.png" />
-        <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/apple-touch-icon-57x57.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-touch-icon-72x72.png" />
-        <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-touch-icon-76x76.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="images/favicon/apple-touch-icon-114x114.png" />
-        <link rel="apple-touch-icon" sizes="120x120" href="images/favicon/apple-touch-icon-120x120.png" />
-        <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-touch-icon-144x144.png" />
-        <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-touch-icon-152x152.png" />
-        <script src="javascripts/jquery-2.1.4.min.js"></script>
-        <script>
-            $(window).load(function(){
-                function preload(arrayOfImages) {
-                    $(arrayOfImages).each(function(){
-                        $('<img/>')[0].src = this;
-                    });
-                }
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-                preload([
-                    'images/background.jpg'
-                ]);
-            });
-        </script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-                                    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <title>YoobakY - Anticiper : demain.
+</title>
+    <meta name="description" content="yoobaky, anticiper : demain."/>
+    <meta name="keywords" content="territoires entrepreneurs innovation prospective décisions projets offres" />
+  <!--   <link rel="apple-touch-icon" sizes="57x57"   href="./assets/img/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60"   href="./assets/img/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72"   href="./assets/img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76"   href="./assets/img/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/img/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/img/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/img/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/img/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/img/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="./assets/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#663fb5">
+    <meta name="msapplication-TileImage" content="./assets/img/favicon/mstile-144x144.png">
+    <meta name="msapplication-config" content="./assets/img/favicon/browserconfig.xml"> -->
+    <meta name="theme-color" content="#663fb5">
+    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico">
+    <link rel="icon" type="image/png" href="./assets/img/favicon/favicon.ico" sizes="32x32">
+    <link rel="stylesheet" href="./assets/css/landio.min.css">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112741911-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-            ga('create', 'UA-45129060-13', 'auto');
-            ga('send', 'pageview');
+      gtag('config', 'UA-112741911-1');
+    </script>
+  </head>
 
-        </script>
-    </head>
-    <body>
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="http://yoobaky.com/"><img alt="Brand" src="images/logo.png"></a>
-                </div>
+  <body>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="navbar">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#yoob">Yoobaky</a></li>
-                        <li><a href="#innover">Vision</a></li>
-                        <li><a href="#mission">Mission</a></li>
-                        <li><a href="#intervention">Interventions</a></li>
-                        <li><a href="#vousetes">Vous êtes</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="lang">
-                            <a class="active" href="/">FR</a>
-                            <p>&nbsp;/&nbsp;</p>
-                            <a href="en">EN</a>
-                        </li>
-                    </ul>
+    <!-- Navigation
+    ================================================== -->
+
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-inverse-custom" id="totop">
+      <div class="container">
+
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/logo_yy_blanc.png" id ="brand-logo-img" class="d-inline-block align-top" alt="Logo YY">
+      </a>
+
+        <div class="hidden-md-up">
+          <a class="navbar-toggler collapsed" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
+            <div class="sr-only">Activer la navigation mobile</div>
+          </a>
+        </div>
+
+        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom">
+          <ul class="nav navbar-nav navbar-nav-transparent float-right">
+             <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="#territoires">INNOVATION & TERRITOIRES</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="#engagements">ENGAGEMENTS</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="#realisations">RÉALISATIONS</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="#team">TEAM</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="#news">NEWS</a>
+            </li>
+            <li class="nav-item nav-item-toggable">
+              <a class="nav-link" href="#contact">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- Hero Section
+    ================================================== -->
+
+    <header class="jumbotron bg-dark d-md-flex flex-md-column justify-content-md-center" role="banner">
+
+      <div class="align-items-left ml-md-5">
+        <h1 class="display-3">Anticiper : demain.</h1>
+        <h2 class="mb-5">Nous réfléchissons et entreprenons<br/> pour dessiner les territoires de demain.</h2>
+      </div>
+
+      <ul class="nav social-share justify-content-center">
+<!--         <li class="nav-item"><a class="nav-link" href="#"><span class="icon-twitter"></span></a></li>
+ -->        <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/company/yoobaky/"><span class="icon-linkedin"></span></a></li>
+      </ul>
+    </header>
+
+
+    <!-- Innovation & Territoires
+    ================================================== -->
+
+    <section class="section-features" id ="territoires">
+      <div class="container">
+        <h3 class="text-center pb-3 subtitle">INNOVATION & TERRITOIRES</h3>
+        <p class="text-center">Yoobaky est un collectif d'entrepreneurs-chercheurs.</p>
+        <p class="text-center">Nous nous positionnons au croisement de l'innovation et des territoires pour comprendre et accompagner différents acteurs : décideurs de grands groupes, de collectivités, porteurs de projet ou stratèges visionnaires.</p>
+        <strong><p class="text-center mb-md-5" style="color: #35BAEC;">VOS ENJEUX D'AUJOURD'HUI ET DE DEMAIN :</p></strong>
+        <div class="row text-center">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title text-center">Comprendre et maîtriser</h4>
+                <h6 class="card-subtitle text-muted text-center">un monde qui bouge</h6>
+                <p class="card-text">
+                <br/>&rarr;  en transformation accélérée
+                <br/>&rarr;  avec des enjeux environnementaux, sociaux et économiques colossaux
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title text-center">Mobiliser</h4>
+                <h6 class="card-subtitle text-muted text-center">pour construire la décision</h6>
+                <p class="card-text">
+                 <br/>&rarr;  avec des contraintes de court terme
+                 <br/>&rarr;  les impératifs d’une innovation dite ouverte, appuyée sur une économie du savoir
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title text-center">Passer le cap</h4>
+                <h6 class="card-subtitle text-muted text-center">du projet à l'action</h6>
+                <p class="card-text">
+                <br/>&rarr;  l’entrepreneuriat
+                <br/>&rarr;  l’intrapreneuriat
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engagements
+    ================================================== -->
+
+    <section class="section-features" id ="engagements">
+      <div class="container">
+        <h3 class="text-center pb-3 subtitle">NOS ENGAGEMENTS</h3>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body text-center" id="card-blue">
+                <span id="icon-blue"><img src="assets/img/gear-2.svg"></span>
+                <h5 class="card-title text-center mb-3">Comprendre et Décider</h5>
+                <p>Problématiser</p>
+                <p>- État de l'art<br/>- Recherche distribuée</p>
+                <p>Prospective</p>
+                <p>- Scénariser<br/>- Modéliser</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <div class="card-body text-center" id="card-green">
+                <span id="icon-green"><img src="assets/img/globe-connections.svg"></span>
+                <h4 class="card-title text-center mb-3">Concevoir et Convaincre</h4>
+                <p>Conception de nouvelles offres</p>
+                <p>Management de l'innovation</p>
+                <p>Aide au montage de projets</p>
+                <p>Stratégie des relations entreprise-territoires</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-0">
+            <div class="card-body text-center" id="card-orange">
+                <span id="icon-orange"><img src="assets/img/rocket.svg"></span>
+                <h4 class="card-title text-center mb-3">Entreprendre et Développer</h4>
+                <p>Appui opérationnel aux porteurs de projet</p>
+                <p>Essaimage</p>
+                <p>Commercialisation de nouvelles offres</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Hero contact
+    ================================================== -->
+
+    <section class="section-hero-contact bg-dark" id="">
+      <div class="container align-items-left float-left ml-md-5 mt-5">
+        <h2 class="">Il n'y a pas de hasard, il n'y a que des rencontres.</h1>
+        <h5 class="">Paul Eluard</h2>
+      </div>
+      <h2 class="float-left"></h2>
+      <div class="container pt-5">
+        <div class="text-center pt-5">
+          <a href="mailto:contact@yoobaky.com">
+            <button type="button" class="semi-transparent-button" id="contact-button">Contactez-nous !</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Nos réalisations
+    ================================================== -->
+
+    <section class="section-features" id ="realisations">
+      <div class="container">
+        <h3 class="text-center pb-3 subtitle">QUELQUES RÉALISATIONS</h3>
+        <div class="row align-items-center">
+          <div class="col-md-4">
+            <div class="card card-shadow">
+              <div class="card-body text-center">
+                <img class="img-fluid pt-2 pb-2" src="assets/img/caisse_depots.png" style="width: 160px;">
+                <p>
+                    Mission d’assistance à maîtrise d’ouvrage sur le programme « développement économique des territoires sensibles »
+                    Mission prospective pour la déclinaison du programme « développement économique des territoires sensibles
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-shadow">
+              <div class="card-body text-center" >
+                <img class="img-fluid pt-2 pb-2" src="assets/img/grand_lyon.jpg" style="width: 200px;">
+                <p>Métropole entreprenante : animation d'une démarche de concertation et de prospective sur l'entrepreneuriat sur la métropole du Grand Lyon.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card card-shadow mb-0">
+                <div class="card-body text-center">
+                <img class="img-fluid pt-2 pb-2 " src="assets/img/e_attract.png" style="width: 200px;">
+                <p>
+                Incubation et accompagnement de la société e-atttract, créateur des relations personnalisées entre Citoyens – Territoires.
+                Sa première application Vivrou.com aide les citoyens dans leurs choix de lieu de vie
+                </p>
                 </div>
             </div>
-        </nav>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="yoobaki">
-            <div class="top">
-                <div class="container">
-                    <h1>Entreprendre dans le monde contemporain. </h1>
-                    <h2>Porter la science et les inventions vers la société.</h2>
-                    <a href="#yoob"></a>
-                </div>
-                <img class="bandeau-couleur" src="images/bandeau-couleurs.jpg" alt="">
-            </div>
-            <div id="yoob" class="infos">
-                <div class="container">
-                    <div class="info-top">
-                        <p><span>“<strong>Yoobaky</strong> est un entrepreneur & chercheur imaginaire, descendant de Nicolas Bourbaki*. </span><br>
 
-                            <span>Il a conservé de ses origines les notions de science, de collectif, de structure Et d’assemblage. </span><br>
+  <!-- Partenaires
+    ================================================== -->
 
-                            <span>De sa jeunesse, il tire sa sensibilité digitale, son caractère d’entrepreneur et son goût pour la nouveauté. “ </span><br>
+    <section class="section-founders partners text-center bg-dark" id="partners">
+      <div class="container">
+        <h3 class="text-center pb-3 subtitle">UN RÉSEAU DE PARTENAIRES</h3>
+        <div id="carousel-partners" class="carousel slide" data-ride="carousel" data-interval="0">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <blockquote class="blockquote">
+                <img src="assets/img/partners/lyon3.jpg" width="300" alt="PartnerLogo">
+                <p class=""></p>
+                <footer>LAET</footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote">
+                <img src="assets/img/partners/plasseraud.png" width="300" alt="PartnerLogo">
+                <p class=""><!-- Laboratoire de référence sur les questions de mobilités, d’aménagement et d’économie, le LAET apporte son savoir-faire à e-attract à travers une licence exclusive sur des données liées à la mobilité résidentielle des ménages. --></p>
+                <footer>LAET</footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote">
+                <img src="assets/img/partners/laet.jpg" width="300" alt="PartnerLogo">
+                <p class=""><!-- Laboratoire de référence sur les questions de mobilités, d’aménagement et d’économie, le LAET apporte son savoir-faire à e-attract à travers une licence exclusive sur des données liées à la mobilité résidentielle des ménages. --></p>
+                <footer>LAET</footer>
+              </blockquote>
+            </div>
+             <div class="carousel-item active">
+              <blockquote class="blockquote">
+                <img src="assets/img/partners/passagers_des_villes.jpg" width='300' alt="PartnerLogo" >
+                <p class=""><!-- La SATT de Lyon-Saint Etienne apporte à la fois des ressources financières, un appui institutionnel et humain à e-attract pour un déploiement accéléré d’offres appuyées sur des technologies issues de la recherche publique.  --></p>
+                <footer>Pulsalys</footer>
+              </blockquote>
+            </div>
+            <div class="carousel-item">
+              <blockquote class="blockquote">
+                <img src="assets/img/partners/labex.png" width="300" alt="PartnerLogo">
+                <p class=""><!-- Groupement d’entrepreneurs-chercheurs, experts en prospective, concepteur de projets et acteurs de l’Innovation-Territoire, YoobakY fournit un socle, des réseaux et une gamme complète d’expertises en partenariat avec e-attract.  --></p>
+                <footer>Yoobaky</footer>
+              </blockquote>
+            </div>
+          </div>
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-partners" data-slide-to="0"><img src="assets/img/partners/lyon3.jpg" alt="Navigation partner logo" class="img-fluid rounded-circle"></li>
+            <li data-target="#carousel-partners" data-slide-to="1" class="active"><img src="assets/img/partners/plasseraud.png" alt="Navigation partner logo" class="img-fluid rounded-circle"></li>
+            <li data-target="#carousel-partners" data-slide-to="2"><img src="assets/img/partners/laet_nav.jpg" alt="Navigation partner logo" class="img-fluid rounded-circle"></li>
+            <li data-target="#carousel-partners" data-slide-to="3"><img src="assets/img/partners/passagers_des_villes.jpg" alt="Navigation partner logo" class="img-fluid rounded-circle"></li>
+            <li data-target="#carousel-partners" data-slide-to="4"><img src="assets/img/partners/labex.png" alt="Navigation partner logo" class="img-fluid rounded-circle"></li>
+          </ol>
+        </div>
+      </div>
+    </section>
 
-                            Yoobaky Ventures est un collectif d’entrepreneurs aux profils complémentaires, qui combine un large périmètre d’expertises, d’expériences et de partenaires, au service de réalisations concrètes, rapides et efficaces. <br></p>
+    <!-- News
+    ================================================== -->
 
-                        <p>Ce collectif porte un portefeuille de projets et peut s’appuyer sur un réseau étendu de conseils indépendants «Yoobaky Advisors» ainsi que sur une sélection de partenaires «corporate».</p>
-                        <div class="mascotte"></div>
-                        <div class="clearfix"></div>
-                    </div>
-                    <div class="schema">
-                        <p>En résumé, à travers ses formations, expériences et compétences, Yoobaky Ventures apporte aujourd’hui :</p>
-                        <img class="img-responsive" src="images/schema.png" alt="schema">
-                    </div>
-                    <div class="nicolas">
-                        <div class="container">
-                            <div class="bloc">
-                                <p>*Nicolas Bourbaki est un mathématicien imaginaire, sous le nom duquel un groupe de mathématiciens, formé sous l'impulsion d'André Weil, a commencé à écrire et éditer des textes mathématiques à la fin des années 1930. Sous le nom N. Bourbaki fut publiée une présentation cohérente des mathématiques, appuyée sur la notion de structure, dans une série d'ouvrages sous le titre « Éléments de mathématique ».</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="innover" class="innover">
-                <div class="container">
-                    <h2>Vision de yoobaky</h2>
-                    <p>“ Innover, c’est faire le lien entre l’invention et le marché.”</p>
-                    <p>Au-delà du renouvellement récurrent de produits et services, Innover, c’est apporter des solutions dans un monde en perpétuelle accélération, aux enjeux sociaux, environnementaux et économiques intriqués dans des systèmes complexes.</p>
-                    <img class="bandeau-photos" src="images/bandeau-photos.jpg" alt="bandeau photos">
-                </div>
-            </div>
-        </section>
+    <section class="section-news" id="news">
+      <h3 class="sr-only">News</h3>
+      <div class="container">
+        <div class="row align-items-center no-gutters bg-dark flex-md-row-reverse">
+          <div class="col-md">
+            <figure class="mb-0">
+              <img src="assets/img/15_ans_citelabs.jpg" alt="Article thumbnail" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-md">
+            <article class="mx-auto">
+              <span class="badge badge-info">À la une</span>
+              <h5><a href="https://www.yoobaky.com">YoobakY a organisé le 1er Hackathon pour la Caisse des Dépôts à Station F, à l'occasion des 15 ans des CitéLabs<span class="icon-arrow-right"></span></a></h5>
+              <p class="mb-0">
+                <span class="badge badge-default text-uppercase"><span class="icon-tag"></span> Événements</span>
+                <span class="badge badge-default text-uppercase"><span class="icon-time"></span> 17/01/2018</span>
+              </p>
+            </article>
+          </div>
+        </div>
+        <div class="row align-items-center no-gutters bg-dark">
+          <div class="col-md">
+            <figure class="mb-0">
+              <img src="assets/img/vivrou-by-e-attract.jpg" alt="Article thumbnail" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-md">
+            <article class="mx-auto">
+              <span class="badge badge-info">Startup</span>
+              <h5><a href="https://www.e-attract.com/?ref=yy">Création de la startup e-attract, incubée par YoobakY<span class="icon-arrow-right"></span></a></h5>
+              <p class="mb-0">
+                <span class="badge badge-default text-uppercase"><span class="icon-tag"></span> Création d'entreprise</span>
+                <span class="badge badge-default text-uppercase"><span class="icon-time"></span> 30/06/2017</span>
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <section id="vision">
-            <div class="container">
+<!--     <!-- Newsletter
+    ================================================== -->
 
-                <p>Les inventions (modèles, brevets, concepts, simples idées et décisions, etc…) sont foisonnantes. Les attentes du marché et de la société sont multiples, urgentes et critiques (santé, équilibre social, environnement et cadre de vie, éducation, etc.). Faire le lien, Innover, c’est intégrer les paradigmes contemporains, la complexité des écosystèmes, et surtout dépasser les jeux d’acteurs installés pour proposer, tester, faire, plus vite, en prenant en compte les attentes des parties prenantes, tout en cassant les codes.</p>
-                <p>Le collectif Yoobaky croit à une innovation ouverte, aux modèles économiques disruptifs, aux liens impensés entre des acteurs qui souvent ne se comprennent pas, pour accompagner les transformations structurelles de la société.</p>
-                <p>Nous croyons à une capacité d’exécution accélérée qui permet de tester à la fois les usagers mais également tous les acteurs qui conditionnent l’accès au marché final.</p>
-                <p><span>“ Innover, c’est <strong>Concevoir, Traduire et Diffuser</strong> aux intersections des écosystèmes.”</span></p>
-                <ul class="main-list">
-                    <li class="bloc">
-                        <img src="images/picto-orange.png" alt="picto-orange">
-                        <h3>Concevoir</h3>
-                        <ul class="sublist">
-                            <li>C’est à la fois inventer de nouvelles solutions, mais également proposer de nouveaux concepts ou simplement décider de rompre avec les mécanismes et processus connus.</li>
-                            <li>Concevoir englobe à la fois le service, le produit, mais également le modèle économique et la structure des écosystèmes qui le porte.</li>
-                            <li>Concevoir, c’est intégrer au mieux les attentes du marché, tout en lui laissant la flexibilité d’influer directement sur l’offre et de contribuer à sa diffusion.</li>
-                            <p>La conception contemporaine peut s’appuyer sur des principes d’ouverture, de disruption et d’une conduite instrumentée du processus en regard des connaissances connues.</p>
-                        </ul>
-                    </li>
-                    <li class="bloc">
-                        <img src="images/picto-vert.png" alt="picto-vert">
-                        <h3>Traduire</h3>
-                        <ul class="sublist">
-                            <li>C’est s’assurer de l’adhésion des acteurs clés à un concept ou un produit, dans une logique de compréhension des parties prenantes et de leurs enjeux respectifs.</li>
-                            <li>Cet exercice de traduction s’inscrit souvent aux croisements d’écosystèmes divers, pour construire une décision collective. </li>
-                            <li>Cette décision doit amener un concept jusqu’à sa maturité d’offre initiale, telle qu’acceptée par les partenaires  nécessaires à sa mise en œuvre.</li>
-                            <p>Traduire fait un lien direct entre la conception et la diffusion possible sur le marché.</p>
-                        </ul>
-                    </li>
-                    <li class="bloc">
-                        <img src="images/picto-bleu.png" alt="picto-bleu">
-                        <h3>Diffuser</h3>
-                        <ul class="sublist">
-                            <li>C’est favoriser l’adoption accélérée du produit/service sur le marché par différents segments d’utilisateurs.</li>
-                            <li style="margin-top:54px;">La mécanique de diffusion, souvent représentée par la fameuse courbe en S de Rogers repose sur une lecture sociologique des marchés ciblés, comme sur les caractéristiques intrinsèques de l’offre et le choix des vecteurs de diffusion.</li>
-                            <p style="margin-top:54px;">La diffusion doit avant tout s’appuyer sur une capacité d’exécution marketing et commerciale sans faille.</p>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-                <div class="knowmore">
-                    <p>Vous avez envie d'en savoir plus ?</p>
-                    <a href="mailto:info@yoobaky.com" class="btn btn-default">Contactez-nous</a>
-                </div>
-            </div>
-        </section>
+<!--     <section class="section-signup bg-light" id="contact">
+      <div class="container">
+        <h3 class="text-center mb-5 subtitle">CONTACT</h3>
+        <div class="text-center">
+          <a href="mailto:contact@e-attract.com">
+            <button type="button" class="btn btn-primary btn-lg btn-pill" id="contact-button">Écrivez-nous !</button>
+          </a>
+        </div>
+      </div>
 
-        <section id="mission">
-            <div class="container">
-                <h2>mission de yoobaky ventures</h2>
-                <p>Entreprendre dans le monde contemporain. Porter la science et les inventions vers la société.</p>
-                <p>Concevoir les nouvelles offres et leurs modèles économiques permettant à la fois leur adoption par le marché et la pérennité de leur mise en œuvre.</p>
-                <p>Dit autrement, notre mission est de proposer, tester et exécuter des solutions simples et robustes dans des systèmes complexes.</p>
-                <div class="clearfix"></div>
-                <div class="mission-bloc">
-                    <h4>Notre Posture
-                        <span>entrepreneur – investisseur</span>
-                    </h4>
-                    <ul>
-                        <li class="first">Porter des projets en tant qu’entrepreneurs, ceux que nous inventons et ceux que vous nous proposez.</li>
-                        <li class="second" style="margin-top:50px;">Investir du temps, du réseau et mobiliser les ressources financières.</li>
-                    </ul>
-                </div>
-                <div class="mission-bloc">
-                    <h4>Nos Challenges
-                        <span>Des questions structurelles de changement</span></h4>
-                    <ul>
-                        <li class="first">Faire face à des évolutions règlementaires,
-                            à des enjeux sociétaux et politiques, à des disruptions technologiques, à des modèles économiques qui s’essoufflent.</li>
-                        <li class="second">Concevoir les solutions aux croisements des périmètres sectoriels traditionnels : santé, environnement, énergie, digital, …</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+    </section> -->
 
-        <section id="intervention">
-            <div class="container">
-                <h2>nos Interventions : <br>
-                    Les projets et les objets d'innovation</h2>
-                <ul>
-                    <li><img src="images/image-1.png" alt=""></li>
-                    <li><img src="images/image-2.png" alt=""></li>
-                    <li class="id">
-                        <h4><strong>ID²</strong><br>De l’idée à la diffusion</h4>
-                        <p>Porter des projets d’offres de services ou de produits pouvant prendre la forme d’une entreprise, d’une activité ou d’une simple application.</p>
-                    </li>
-                    <li class="io"><h4><strong>IO²</strong><br>Innovation Open Object</h4>
-                        <p>Concevoir et monter des plateformes d’innovation ouverte, permettant de créer une structure entre producteurs de science et opérateurs de marché.</p>
-                    </li>
-                    <li><img src="images/image-3.png" alt=""></li>
-                    <li><img src="images/image-4.png" alt=""></li>
-                </ul>
-                <div class="intervention-bloc">
-                    <h4>modalités d’intervention</h4>
-                    <ul>
-                        <li>Un diagnostic initial, partagé, sans engagements ultérieurs : vous conservez votre liberté de faire ou non, avec ou sans nous. </li>
-                        <li>Un cadre contractuel précis et simple, par phase (Conception, Traduction, Diffusion)  indexant les rémunérations sur des assiettes clairement établies, avec des objectifs partagés.</li>
-                        <li>Un portage autonome, dans une logique d’exécution dans les meilleurs délais, avec une mobilisation des ressources adéquates au gré des besoins du projet et un  suivi partagé de l’avancement.</li>
-                        <li>Des modalités d’intervention flexibles, cadrées et adaptées.</li>
-                    </ul>
-                </div>
-                <div class="intervention-bloc">
-                    <h4>Proposition de valeur : </h4>
-                    <ul>
-                        <li>Porter vos inventions vers le marché dans une logique entrepreneuriale.</li>
-                        <li>Apporter une conception systémique de l’offre intégrant les facteurs de décision et les conditions d’adoption.</li>
-                        <li>Mobiliser les meilleures ressources (compétences et financières), expertises et partenaires nécessaires aux différentes phases du projet.</li>
-                        <li>Accélérer le prototypage et mettre en œuvre rapidement les tests de marchés.</li>
-                        <li>Investir notre temps et nos réseaux. Partager la valeur créée sur des bases claires et transparentes.</li>
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-                <div class="knowmore">
-                    <p>Vous avez envie d'en savoir plus ?</p>
-                    <a href="mailto:info@yoobaky.com" class="btn btn-default">Contactez-nous</a>
-                </div>
-            </div>
-        </section>
+    <!-- Footer
+    ================================================== -->
 
-        <section id="vousetes">
-            <div class="orange">
-                <div class="container">
-                    <h4>Vous êtes</h4>
-                    <ul>
-                        <li>Porteurs (d’envie) de projets scientifiques ou institutionnels </li>
-                        <li>Entreprises (R&I, Marketing, Affaires publiques, ...)</li>
-                        <li>Producteurs de savoir (Ecole, Centre de recherche, Institut, ...)</li>
-                        <li>Entrepreneurs</li>
-                        <li>Opérateurs publics</li>
-                        <li>Investisseurs</li>
-                    </ul>
-                </div>
+    <footer class="section-footer" role="contentinfo">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-lg-5">
+            <div class="media flex-column flex-md-row">
+              <a class="navbar-brand" href="#">
+                <img src="assets/img/logo_yy.png" id ="brand-logo-img" class="d-inline-block align-top" alt="Logo YY">
+              </a>
             </div>
-            <div class="vert">
-                <div class="container">
-                    <h4>Vous avez</h4>
-                    <ul>
-                        <li>Une idée, un concept</li>
-                        <li>Un savoir-faire spécifique</li>
-                        <li>Une capacité de production de savoir et/ou de marché</li>
-                        <li>Un brevet</li>
-                        <li>Une connaissance des enjeux majeurs pour lesquels l’innovation semble orpheline de manière récurrente</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="bleu">
-                <div class="container">
-                    <h4>Il vous manque</h4>
-                    <ul>
-                        <li>Le temps</li>
-                        <li>Les réseaux & partenaires</li>
-                        <li>Les ressources accessibles</li>
-                        <li>La flexibilité organisationnelle</li>
-                        <li>L’expertise entrepreneuriale</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="gris">
-                <div class="container">
-                    <h4>Vous cherchez</h4>
-                    <ul>
-                        <li>Un opérateur défricheur, monteur, connecteur, faiseur</li>
-                        <li>Un partenaire prêt à prendre des risques avec vous...</li>
-                        <li>...capable de sécuriser le processus d'innovation</li>
-                    </ul>
-                </div>
-            </div>
-            <div id="contact" class="innover">
-                <div class="container">
-                    <div class="knowmore">
-                        <p>Vous avez envie d'innover ?</p>
-                        <a href="mailto:info@yoobaky.com" class="btn btn-default">Contactez-nous</a>
-                    </div>
-                    <p>Yoobaky - 37 rue des Mathurins  - 75008 Paris - FRANCE - <a href="mailto:info@yoobaky.com" target="_top">info@yoobaky.com</a></p>
-                    <p>© 2016. All rights reserved.</p>
-                </div>
-            </div>
-        </section>
-    </body>
-    <script src="javascripts/bootstrap.min.js"></script>
-    <script src="javascripts/script.js"></script>
+          </div>
+          <div class="col-md-6">
+            <ul class="nav flex-column flex-md-row justify-content-md-end">
+              <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Retour en haut<span class="icon-caret-up"></span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row text-center">
+        <small class="media-body text-center">
+            Design by Peter Finlan / Taty Grassini.
+          </small>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="./assets/js/plugins/jquery.min.js"></script>
+    <script src="./assets/js/plugins/popper.min.js"></script>
+    <script src="./assets/js/plugins/bootstrap.min.js"></script>
+    <script src="./assets/js/plugins/jquery.waypoints.min.js"></script>
+    <script src="./assets/js/plugins/video.js"></script>
+    <script src="./assets/js/plugins/jquery.vimeo.api.min.js"></script>
+    <script src="./assets/js/plugins/Chart.min.js"></script>
+    <script src="./assets/js/landio.js"></script>
+  </body>
 </html>
