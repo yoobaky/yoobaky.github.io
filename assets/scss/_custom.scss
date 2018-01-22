@@ -131,6 +131,11 @@ $display3-size: 3.4rem !default;
   background-color: #F29021;
 }
 
+footer {
+  @extend #icon-orange;
+  color: white !important;
+}
+
 #engagements .card {
   min-height: 26rem;
 }
@@ -182,9 +187,13 @@ $display3-size: 3.4rem !default;
 
 
 h1 {
-    text-shadow: black 0.1em 0.1em 1em;
+  text-shadow: black 0.1em 0.1em 1em;
 }
 
 #collapsingNavbar li.nav-item {
-    text-shadow: black 0.1em 0.1em 1em;
+  text-shadow: black 0.1em 0.1em 1em;
+}
+
+#address {
+  line-height: 1rem;
 }
