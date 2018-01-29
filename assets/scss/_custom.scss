@@ -71,6 +71,18 @@ $display3-size: 3.4rem !default;
   width: 200px;
 }
 
+@media screen and (min-width: 650px) {
+  .navbar {
+    margin-left: 3rem !important;
+    padding-left: 0px !important;
+  }
+
+  #nav-container {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+  }
+}
+
 @media screen and (min-width: 1000px) {
   #contact-button {
     width: 30%;
@@ -85,6 +97,7 @@ $display3-size: 3.4rem !default;
   header {
     height: 60vh;
   }
+
 }
 
 .subtitle {
